@@ -4,98 +4,102 @@
     <link href='./styles.css' rel='stylesheet'/>
   </head>
   <body>
-    <header>
-
-    </header>
     <main>
+      <header>
+        <h1>Semantic HTML Reference</h1>
+      </header>
       <table>
-        <tr>
-          <thead>Element</thead>
-          <thead>Description</thead>
-        </tr>
-        <tr>
-          <td>&lt;header&gt;</td>
-          <td>
-            Header elements are a container for introductory information and navigation links. They typically contain: <br>
-            - One or more heading elements<br>
-            - A logo or icon<br>
-            - author information
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;nav&gt;</td>
-          <td>
-            The Navigation element is a container for related links. Not every link should be in a Navigation element, however. They are only intended to contain major blocks of navigation links. Menu or Table Contents links are good examples of links that should be wrapped in a Navigation element. Navigation elements help search engines and screen readers understand layout of your website.
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;main&gt;</td>
-          <td>
-            The Main element is a container for the dominant content of the webpage, and using this element helps web browsers and screen readers identify the main content. The Main element should not contain any content that is repeated in other parts of the page like sidebars, navigation links, logos, copyright information, etc.
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;footer&gt;</td>
-          <td>The Footer element is a container for the document or section. Typically contains:<br>
-            - authorship information<br>
-            - copyright information<br>
-            - contact information<br>
-            - sitemap<br>
-            - back to top links<br>
-            - related documents<br>
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;article&gt;</td>
-          <td>The Article element specifies independent, self-contained content. It should make sens on its own and should be possible to distribute it independent of the rest of the site. Examples could include:<br>
-            - Forum post<br>
-            - Blog post<br>
-            - News story<br>
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;section&gt;</td>
-          <td>The Section element explicitly defines a section of the document, and unlike an Article element, it will not make sense outside the context of the document. Not only does it add semantic structure to your site, it can also be a useful CSS hook.</td>
-        </tr>
-        <tr>
-          <td>
-            &lt;h1&gt;,<br/>
-            &lt;h2&gt;,<br/>
-            &lt;h3&gt;,<br/>
-            &lt;h4&gt;,<br/>
-            &lt;h5&gt;,<br/>
-            &lt;h6&gt;,<br/>
-          </td>
-          <td>
-            Heading elements are containers for headings and sub-headings. They have preset text sizes, with h1 being the largest and h6 being the smallest. Heading elements also help the HTML Document Outline separate the webpage into sections. The size of the new heading element in relation to the previous one is what determines the outline as you go down the page. <br>
-            - If the next heading element is large than the last, a new parent section is created in the outline.<br>
-            - If the next heading element is the same size as the last, a new sibling section is created in the outline.<br>
-            - If the next heading element is smaller than the last, a new child section is created in the outline.<br>
-          </td>
-        </tr>
-        <tr>
-          <td>&lt;p&gt;</td>
-          <td>The P element defines a paragraph. Also, browsers will automatically add a blank line before and after each P element.</td>
-        </tr>
-        <tr>
-          <td>&lt;video&gt;</td>
-          <td>The Video element is used to embed video content into the document. The three supported formats are MP4, WebM, and OGG. Not every browser supports all three formats, however.</td>
-        </tr>
-        <tr>
-          <td>&lt;audio&gt;</td>
-          <td>The Audio element is used to embed sound content into the document. If the tag contains one or more source tags, the browser will display the first one. There are three formats supported by the Audio tag, MP3, WAV, and OGG. However, not all browsers support all three formats.</td>
-        </tr>
-          <td>&lt;figure&gt;</td>
-          <td>The Figure element is meant for self-contained content, like illustrations, diagrams, photos, code listings, etc. While the content of Figure elements is related to the main flow, it's position is independent and if removed it shouldn't affect the flow of the document.</td>
-        </tr>
-        <tr>
-          <td>&lt;figcaption&gt;</td>
-          <td>The Figcaption element contains the caption for a Figure element. It can be the first child element of the last child element of the Figure element</td>
-        </tr>
-        <tr>
-          <td>&lt;aside&gt;</td>
-          <td>The Aside element defines some content aside from the content it is placed in. It should contain content that is indirectly related to the surrounding content. It is used as a sidebar in a document. The browser won't render the Aside element in a special way, so you will need to use CSS to give it a distinctive look.</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Element</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;header&gt;</td>
+            <td>
+              Header elements are a container for introductory information and navigation links. They typically contain: <br>
+              - One or more heading elements<br>
+              - A logo or icon<br>
+              - author information
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;nav&gt;</td>
+            <td>
+              The Navigation element is a container for related links. Not every link should be in a Navigation element, however. They are only intended to contain major blocks of navigation links. Menu or Table Contents links are good examples of links that should be wrapped in a Navigation element. Navigation elements help search engines and screen readers understand layout of your website.
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;main&gt;</td>
+            <td>
+              The Main element is a container for the dominant content of the webpage, and using this element helps web browsers and screen readers identify the main content. The Main element should not contain any content that is repeated in other parts of the page like sidebars, navigation links, logos, copyright information, etc.
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;footer&gt;</td>
+            <td>The Footer element is a container for the document or section. Typically contains:<br>
+              - authorship information<br>
+              - copyright information<br>
+              - contact information<br>
+              - sitemap<br>
+              - back to top links<br>
+              - related documents<br>
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;article&gt;</td>
+            <td>The Article element specifies independent, self-contained content. It should make sens on its own and should be possible to distribute it independent of the rest of the site. Examples could include:<br>
+              - Forum post<br>
+              - Blog post<br>
+              - News story<br>
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;section&gt;</td>
+            <td>The Section element explicitly defines a section of the document, and unlike an Article element, it will not make sense outside the context of the document. Not only does it add semantic structure to your site, it can also be a useful CSS hook.</td>
+          </tr>
+          <tr>
+            <td>
+              &lt;h1&gt;,<br/>
+              &lt;h2&gt;,<br/>
+              &lt;h3&gt;,<br/>
+              &lt;h4&gt;,<br/>
+              &lt;h5&gt;,<br/>
+              &lt;h6&gt;,<br/>
+            </td>
+            <td>
+              Heading elements are containers for headings and sub-headings. They have preset text sizes, with h1 being the largest and h6 being the smallest. Heading elements also help the HTML Document Outline separate the webpage into sections. The size of the new heading element in relation to the previous one is what determines the outline as you go down the page. <br>
+              - If the next heading element is large than the last, a new parent section is created in the outline.<br>
+              - If the next heading element is the same size as the last, a new sibling section is created in the outline.<br>
+              - If the next heading element is smaller than the last, a new child section is created in the outline.<br>
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>The P element defines a paragraph. Also, browsers will automatically add a blank line before and after each P element.</td>
+          </tr>
+          <tr>
+            <td>&lt;video&gt;</td>
+            <td>The Video element is used to embed video content into the document. The three supported formats are MP4, WebM, and OGG. Not every browser supports all three formats, however.</td>
+          </tr>
+          <tr>
+            <td>&lt;audio&gt;</td>
+            <td>The Audio element is used to embed sound content into the document. If the tag contains one or more source tags, the browser will display the first one. There are three formats supported by the Audio tag, MP3, WAV, and OGG. However, not all browsers support all three formats.</td>
+          </tr>
+            <td>&lt;figure&gt;</td>
+            <td>The Figure element is meant for self-contained content, like illustrations, diagrams, photos, code listings, etc. While the content of Figure elements is related to the main flow, it's position is independent and if removed it shouldn't affect the flow of the document.</td>
+          </tr>
+          <tr>
+            <td>&lt;figcaption&gt;</td>
+            <td>The Figcaption element contains the caption for a Figure element. It can be the first child element of the last child element of the Figure element</td>
+          </tr>
+          <tr>
+            <td>&lt;aside&gt;</td>
+            <td>The Aside element defines some content aside from the content it is placed in. It should contain content that is indirectly related to the surrounding content. It is used as a sidebar in a document. The browser won't render the Aside element in a special way, so you will need to use CSS to give it a distinctive look.</td>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>
